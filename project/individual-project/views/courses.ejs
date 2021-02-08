@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <main>
+    <aside class="aside">
+      <img class="img1" src="images/graduated.png" />
+      <h3 class="h5"> Edulogy</h5>
+      <ul class="ul">
+        <li><a class="list" href="/">Home</a></li>
+        <li><a class="list" href="trainers">Trainer</a></li>
+        <li><a class="list" href="students">Student</a></li>
+        <li><a class="list" href="courses">Courses</a></li>
+        <li><a class="list" href="assigments"> Assigment</a></li>
+      </ul>
+    </aside>
+    <section class="section" style="background-color: black;">
+      <header class="contact">
+        <h2>Contact us</h2> 
+        <a><img class="social" src="images/facebook.png"></a>
+        <a><img class="social"src="images/instagram-symbol.png"></a>
+        <a><img class="social"src="images/twitter.png"></a>
+      </header>
+      <fieldset>
+        <h1 class="heading4"><%= title %></h1>
+        <div>
+        <table class="table" border="1">
+          <tr>
+            <td>ID</td> 
+            <td>Title</td>
+            <td>Stream</td>
+            <td>Type</td>
+            <td>Start date</td>
+            <td>End date</td>  
+            </tr>
+        <tr>
+        <% for(var i = 0 ; i  < courses.length ; i++){ %>
+        <td><span><%= courses[i].course_id %></span>&nbsp;</td>
+        <td><span><%= courses[i].title %></span>&nbsp;</td>
+        <td><span><%= courses[i].stream %></span>&nbsp;</td>
+        <td><span><%= courses[i].type %></span>&nbsp;</td>
+        <td><span><%= courses[i].start_date %></span>&nbsp;</td>
+        <td><span><%= courses[i].end_date %></span></td>
+        <br>
+        </tr>
+        <% } %>
+        </table>
+      </fieldset>
+      </div>
+    </section>
+  </main>

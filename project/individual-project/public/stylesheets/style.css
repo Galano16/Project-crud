@@ -1,0 +1,268 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+main {
+  display: flex;
+}
+.aside {
+  flex: 1;
+  background-color: rgba(15, 77, 105, 0.274);
+  width: 12%;
+  color: white;
+  height: 69.2rem;
+}
+.img1 {
+  margin-top: 25px;
+  margin-left: 40%;
+}
+.ul {
+  display: none;
+  text-align: center;
+  display: block;
+  margin-top: 40%;
+}
+.h5 {
+  background-color: rgba(15, 77, 105, 0.274);
+  margin-top: 150px;
+  text-align: center;
+}
+.list {
+  text-decoration: none;
+  position: relative;
+  display: block;
+  padding: 13px 15px 12px;
+  height: 100px;
+  text-align: center;
+  padding-top: 15%;
+}
+.list:hover {
+  background-color: red;
+}
+.section {
+  flex: 1;
+  width: auto;
+}
+.contact {
+  height: auto;
+  background-color: lightgray;
+  width: 1760px;
+  text-align: right;
+}
+h2 {
+  margin-right: 10px;
+  font-size: 35px;
+}
+.social {
+  padding: 10px;
+  cursor: pointer;
+}
+.img2 {
+  width: 100%;
+  height: auto;
+  filter: blur(30px);
+  -webkit-filter: blur(4px);
+}
+.heading {
+  position: absolute;
+  top: 20rem;
+  right: 13%;
+  font-size: 3rem;
+}
+.paragraph {
+  position: absolute;
+  top: 25rem;
+  right: 7%;
+  font-size: 20px;
+}
+.paragraph1 {
+  position: absolute;
+  top: 26rem;
+  right: 11%;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.read {
+  position: absolute;
+  top: 30rem;
+  right: 27%;
+  background-color: aqua;
+  width: 130px;
+  height: 50px;
+}
+.success {
+  height: 500px;
+  background-color: black;
+  width: 100%;
+}
+
+.stu_num {
+  color: white;
+  font-size: 50px;
+  position: relative;
+  top: 100px;
+  left: 300px;
+  max-width: 1780px;
+}
+.stu_name {
+  color: aqua;
+  font-size: 40px;
+  position: relative;
+  top: 140px;
+  left: 230px;
+  max-width: 600px;
+}
+.stu_par {
+  color: white;
+  font-size: 20px;
+  position: relative;
+  top: 180px;
+  left: 230px;
+  max-width: 600px;
+}
+.cou_num {
+  color: white;
+  font-size: 50px;
+  position: relative;
+  bottom: 65px;
+  left: 1500px;
+  max-width: 300px;
+}
+.cou_name {
+  color: aqua;
+  font-size: 40px;
+  position: relative;
+  bottom: 15px;
+  left: 1450px;
+  max-width: 400px;
+}
+.cou_par {
+  color: white;
+  font-size: 20px;
+  position: relative;
+  top: 25px;
+  left: 1450px;
+  max-width: 400px;
+}
+.price {
+  background-color: aqua;
+  widows: 1800px;
+  height: 200px;
+  color: white;
+}
+.value {
+  position: relative;
+  top: 50px;
+  left: 600px;
+  font-size: 4rem;
+  max-width: 600px;
+}
+.text {
+  position: relative;
+  bottom: 23px;
+  left: 900px;
+  font-size: 4rem;
+  max-width: 800px;
+}
+.subscribe {
+  height: 500px;
+  background-color: black;
+  color: white;
+}
+.sub_name {
+  position: relative;
+  top: 100px;
+  left: 400px;
+  font-size: 40px;
+  max-width: 600px;
+}
+.sub_text {
+  position: relative;
+  top: 100px;
+  left: 400px;
+  max-width: 600px;
+  margin-top: 20px;
+}
+.email {
+  position: relative;
+  position: relative;
+  max-width: 600px;
+  top: 100px;
+  left: 400px;
+  margin-top: 20px;
+  width: 200px;
+  height: 30px;
+}
+.submit {
+  position: relative;
+  position: relative;
+  max-width: 600px;
+  top: 100px;
+  left: 400px;
+  margin-top: 20px;
+  width: 50px;
+  height: 30px;
+}
+.supp {
+  position: relative;
+  left: 1500px;
+  bottom: 50px;
+  max-width: 400px;
+  font-size: 40px;
+}
+.terms {
+  position: relative;
+  left: 1500px;
+  bottom: 50px;
+  font-size: 20px;
+  max-width: 400px;
+  padding-top: 15px;
+}
+.heading4 {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 40px;
+}
+.table {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+td {
+  height: 10px;
+}
+.form {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 10rem;
+}
+.section1 {
+  background-color: blue;
+}
+fieldset {
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 100px;
+  background-color: white;
+}
+.add {
+  height: 30px;
+  width: 100px;
+  margin-left: 430px;
+  margin-bottom: 100px;
+}
+.addstu {
+  position: relative;
+  left: 70px;
+}
+.addbtn {
+  height: 40px;
+  width: 100px;
+  margin-bottom: 100px;
+  position: relative;
+  top: 50px;
+  right: 200px;
+}
